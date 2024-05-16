@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body{
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    background-image: url("https://t3.ftcdn.net/jpg/02/73/42/80/360_F_273428045_GXmhwMTcqusShGii9zAe6hS7nbCpOMZV.jpg"); background-size: cover;
+}
+
+.content{
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: "Poetsen One", sans-serif;
+}
+
+h2{
+    color: yellow;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Poetsen One", sans-serif;
+}
+
+p{
+    font-size: 2rem;
+    font-family: "Poetsen One", sans-serif;
+}
+
