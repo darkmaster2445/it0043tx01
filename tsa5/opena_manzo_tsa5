@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Opena_TSA5</title>
+        <link rel="stylesheet" href="card.css">
+    </head>
+    <body class="body">
+        <div class="container">
+            <div class="card pikachu">
+                <div class="image-container">
+                    <img src="Pika.gif" alt="pikachu">
+                </div>
+                <div class="details">
+                    <h1 class="name">Pikachu</h1>
+                    <p class="text">Type:</p>
+                    <div class="type">
+                        <p class="type 1 electric">Electric</p>
+                    </div>
+                    <p class="desc">Pikachu (Japanese: ピカチュウ Pikachu) is an Electric-type Pokémon introduced in Generation I.</p>
+                    <div class="buttons">
+                        <button class="add">Add Pokemon</button>
+                        <button class="release">Release Pokemon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card alakazam">
+                <div class="image-container">
+                    <img src="Alakazam-unscreen.gif" alt="alakazam">
+                </div>
+                <div class="details">
+                    <h1 class="name">Alakazam</h1>
+                    <p class="text">Type:</p>
+                    <div class="type">
+                        <p class="type 1 psychic">Psychic</p>
+                    </div>
+                    <p class="desc">Alakazam (Japanese: フーディン Foodin) is a Psychic-type Pokémon introduced in Generation I.</p>
+                    <div class="buttons">
+                        <button class="add">Add Pokemon</button>
+                        <button class="release">Release Pokemon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card vaporeon">
+                <div class="image-container">
+                    <img src="Vaporeon.gif" alt="vaporeon">
+                </div>
+                <div class="details">
+                    <h1 class="name">Vaporeon</h1>
+                    <p class="text">Type:</p>
+                    <div class="type">
+                        <p class="type 1 water">Water</p>
+                    </div>
+                    <p class="desc">Vaporeon (Japanese: シャワーズ Showers) is a Water-type Pokémon introduced in Generation I.</p>
+                    <div class="buttons">
+                        <button class="add">Add Pokemon</button>
+                        <button class="release">Release Pokemon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card turtonator">
+                <div class="image-container">
+                    <img src="Turtonator-Pokemon-PNG.png" alt="turtonator">
+                </div>
+                <div class="details">
+                    <h1 class="name">Turtonator</h1>
+                    <p class="text">Type:</p>
+                    <div class="type">
+                        <p class="type 1 dragon">Dragon</p>
+                        <p class="type 2 fire">Fire</p>
+                    </div>
+                    <p class="desc">Turtonator (Japanese: バクガメス Bakugames) is a dual-type Fire/Dragon Pokémon introduced in Generation VII.</p>
+                    <div class="buttons">
+                        <button class="add">Add Pokemon</button>
+                        <button class="release">Release Pokemon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card snorlax">
+                <div class="image-container">
+                    <img src="snorlax.gif" alt="snorlax">
+                </div>
+                <div class="details">
+                    <h1 class="name">Snorlax</h1>
+                    <p class="text">Type:</p>
+                    <div class="type">
+                        <p class="type 1 normal">Normal</p>
+                    </div>
+                    <p class="desc">Snorlax (Japanese: カビゴン Kabigon) is a Normal-type Pokémon introduced in Generation I.</p>
+                    <div class="buttons">
+                        <button class="add">Add Pokemon</button>
+                        <button class="release">Release Pokemon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card wailord">
+                <div class="image-container">
+                    <img src="wailord.gif" alt="wailord">
+                </div>
+                <div class="details">
+                    <h1 class="name">Wailord</h1>
+                    <p class="text">Type:</p>
+                    <div class="type">
+                        <p class="type 1 water">Water</p>
+                    </div>
+                    <p class="desc">Wailord (Japanese: ホエルオー Whaloh) is a Water-type Pokémon introduced in Generation III.</p>
+                    <div class="buttons">
+                        <button class="add">Add Pokemon</button>
+                        <button class="release">Release Pokemon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
