@@ -1,0 +1,207 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: url(pokeballbg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    padding: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.grid-item{
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    flex: 1 1 22%;
+}
+
+.grid-item span{
+    display: block;
+    margin-top: 10px;
+}
+
+.grid-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.pokemon{
+    flex: auto;
+    margin: 5px;
+    background-color: black;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.list-container{
+    display: none;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.meowth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: gray;
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+@media screen (max-width: 760px) {
+    .grid-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 760px){
+    .grid-container{
+        display: block;
+    }
+    .grid-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 5px solid black;
+        padding: 10px;
+    }
+    .grid-item img{
+        width: 50px;
+        height: 50px;
+    }
+    .grid-item span{
+        flex-grow: 1;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .grid-item
+}
+.jiggles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: pink;
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.pidgey{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: yellow;
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.psyduck{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(156, 156, 0, 0.753);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.pikachu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(255, 210, 8);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.charmander{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(255, 102, 0);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+.caterpie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(45, 255, 25, 0.781);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.weedle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(177, 145, 56);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.rattata{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(89, 5, 158);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.snorlax{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(4, 0, 255);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.squirtle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(0, 183, 196);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
+
+.zubat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(3, 42, 150);
+    border: 1px gray;
+    margin-bottom: 10px;
+}
