@@ -6,9 +6,82 @@
     transition: 0.5s all ease;
 }
 
-.container{
-    width: 90vw;
+.container {
+    width: 100%;
     margin: 0 auto;
+    padding: 20px;
+}
+
+.main-picture,
+.sub-picture,
+.article,
+.news {
+    margin-bottom: 20px;
+}
+
+.main-pic,
+.sub-pic {
+    width: 100%;
+    height: auto;
+}
+
+.article-h1,
+.news-2-h1,
+.news-3-h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.article-p,
+.news-2-p,
+.news-3-p {
+    font-size: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bosses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bosses .container {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bosses img {
+    width: 100%;
+    height: auto;
+    max-height: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.bosses h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.bosses p {
+    font-size: 1em;
+    margin: 5px 0;
 }
 
 nav{
@@ -124,7 +197,6 @@ main .container{
     border: none;
 }
 
-/* button */
 .button-54 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -153,7 +225,6 @@ main .container{
     padding: 0.25em 0.75em;
   }
 }
-/* button */
 
 .news{
     grid-column: 3/4;
@@ -219,3 +290,34 @@ main .container{
     text-align: justify;
 }
 
+@media (max-width: 768px) {
+    .bosses {
+        flex-direction: column;
+    }
+
+    .bosses .container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .article-h1,
+    .news-2-h1,
+    .news-3-h1 {
+        font-size: 1.5em;
+    }
+
+    .button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .bosses h2 {
+        font-size: 1.2em;
+    }
+
+    .bosses p {
+        font-size: 0.9em;
+    }
+}
